@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(
+  90deg,
+  rgb(129, 4, 102) 10%,
+  rgb(16, 112, 150) 35%,
+  rgba(223, 17, 195, 0.836) 100%
+)
+}
+h1 {
+  color: rgb(32, 32, 122);
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  
+  
+}
+p {
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  
+}
+#subtitulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+#mais {
+  display:none;
+  
+
+
+}
+a {
+  font-size: 40px;
+  opacity: 0.5;
+  color: blue;
+  
+}
+
+
+a:hover {
+  opacity: 1;
+  color: black;
+
+}
+
+.tituloart {
+  font-size: 39px;
+  text-align: center;
+}
+img {
+  height: 150px;
+  width: 190px;
+  align-items: center;
+  
+}
+
+
+
+.voltaraotopo{
+  
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 45px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+.voltaraotopo {
+  opacity: 1;
+  position: fixed;
+  right: 15px;
+    bottom: 15px;
+}
+.artistas {
+  border-radius: 40%; 
+  border-style: solid; 
+  border-color: rgb(44, 8, 77);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.voltaraoinicio {
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 45px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+}
+
+.desenhos {
+ margin-left: 620px;
+}

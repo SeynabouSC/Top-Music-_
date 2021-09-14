@@ -1,0 +1,245 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(129, 4, 102) 10%,
+    rgb(16, 112, 150) 35%,
+    rgba(223, 17, 195, 0.836) 100%
+  )
+}
+h1 {
+  margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em rebeccapurple;
+    
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  text-align: center;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  text-align: center;
+}
+  
+  
+
+p {
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  
+}
+#subtitulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+#mais {
+  display:none;
+  
+
+
+}
+a .voltaraotopo {
+  font-size: 40px;
+  opacity: 0.5;
+  color: blue;
+  text-align: center;
+  
+}
+
+
+a:hover {
+  opacity: 1;
+  color: black;
+
+}
+
+.tituloart {
+  font-size: 39px;
+  text-align: center;
+}
+img {
+  height: 150px;
+  width: 190px;
+  align-items: center;
+  
+}
+
+.voltaraotopo{
+  
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 45px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+.voltaraotopo {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+audio {
+  margin-left: 550px;
+  color: plum;
+}
+
+#logotipo {
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: -65px;
+  position: relative;
+  animation: voando .4s ease-in-out 1s infinite alternate;
+}
+
+@keyframes voando {
+  from { top: 0;     }
+  to   { top: -40px; }
+}
+
+header {
+  background-color: rgb(83, 2, 83);
+  box-shadow: 2px 10px 10px (rgb(255, 144, 255));
+  text-align: center;
+  padding-top: 1em;
+  text-align: center;
+  margin-top: -8px;
+  margin-left: -10px;
+  margin-right: -8px;
+}
+
+header ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(71, 11, 56);
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+
+header li:hover {
+  border-bottom-color: currentColor;
+}
+
+header a {
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+
+footer {
+  background-color: rgb(66, 3, 66);
+  padding: 0.85em;
+  /* clear: right; */
+  margin-top: 42px;
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-bottom: -40px;
+  clear: right;
+
+}
+
+img {
+  height: 110px;
+  width: 118px;
+  align-items: center;
+  margin-bottom: -40px;
+}
+
+.artistas {
+  border-radius: 40%; 
+  border-style: solid; 
+  border-color: rgb(44, 8, 77);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imghistorias {
+  border-radius: 20%; 
+  border-style:double;
+  border-color: rgb(54, 44, 88);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotoritmos {
+  float: left;
+  display: inline block;
+  margin-left: 220px;
+  margin-right: 50px;
+  margin-top: 70px;
+  align-items: center;
+  height: 140px;
+  width: 120px;
+  position: relative;
+  animation: movimento .5s ease-in-out 1s infinite alternate;
+}
+
+@keyframes movimento {
+  from { top: 0;     }
+  to   { top: -20px; }
+}
+
+
+.linkhistorias {
+  margin-bottom: 600px;
+  text-align: center;
+}
+.voltaraoinicio {
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 45px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+}
+
+.linksmusicas {
+  color:rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.linksmusicas:hover {
+  color:rgba(206, 6, 56, 0.836);
+  font-size: 150%;
+}
+#inicial {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color:darkblue;
+}
+
